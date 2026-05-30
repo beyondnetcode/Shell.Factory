@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>BeyondNetCode.Shell.Factory</AssemblyName>
+    <RootNamespace>BeyondNetCode.Shell.Factory</RootNamespace>
+    <Title>BeyondNetCode.Shell.Factory</Title>
+    <Description>BeyondNetCode.Shell.Factory is a .NET library aimed at improving the factory and abstract factory patterns by introducing configuration-driven behavior. It enables developers to create structured factories that simplify object instantiation across different .NET applications.</Description>
+    <Copyright>BeyondNet Code</Copyright>
+    <PackageTags>factory, factory-patterns</PackageTags>
+    <RepositoryUrl>https://github.com/beyondnetcode/Shell.Factory</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/beyondnetcode/Shell.Factory</PackageProjectUrl>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>LICENSE</PackagePath>
+    </None>
+    <None Include="../../README.md">
+      <Pack>True</Pack>
+      <PackagePath>README.md</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+  </ItemGroup>
+
+</Project>

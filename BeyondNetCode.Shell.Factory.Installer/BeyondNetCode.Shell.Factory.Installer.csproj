@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>BeyondNetCode.Shell.Factory.Installer</AssemblyName>
+    <RootNamespace>BeyondNetCode.Shell.Factory.Installer</RootNamespace>
+    <Title>BeyondNetCode.Shell.Factory.Installer</Title>
+    <Description>BeyondNetCode.Shell.Factory.Installer provides installation and registration utilities for Shell.Factory components, enabling seamless integration with dependency injection containers.</Description>
+    <Copyright>BeyondNet Code</Copyright>
+    <RepositoryUrl>https://github.com/beyondnetcode/Shell.Factory</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/beyondnetcode/Shell.Factory</PackageProjectUrl>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../../LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>LICENSE</PackagePath>
+    </None>
+    <None Include="../../../README.md">
+      <Pack>True</Pack>
+      <PackagePath>README.md</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../BeyondNetCode.Shell.Factory/BeyondNetCode.Shell.Factory.csproj" />
+  </ItemGroup>
+
+</Project>
