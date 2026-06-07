@@ -3,7 +3,7 @@
   <p><strong>A configuration-driven Factory pattern library for .NET</strong></p>
 
   <p>
-    <a href="README.en.md">🇬🇧 English</a> | <a href="README.es.md">🇪🇸 Español</a>
+    <a href="README.en.md"> English</a> | <a href="README.es.md"> Español</a>
   </p>
 
   <p>
